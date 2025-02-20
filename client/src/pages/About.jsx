@@ -5,7 +5,7 @@ import Layout from "../components/Layout/Layout";
 function About() {
   return (
     <>
-      <Layout title={"About Us are"}>
+      <Layout title={"About Us"}>
         <section className="bg-gray-100 dark:bg-gray-900 py-12 px-6 min-h-[80vh]">
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 dark:text-white">
