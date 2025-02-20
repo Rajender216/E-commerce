@@ -1,0 +1,67 @@
+package download
+1.npm init -y
+2. npm i express
+3. package json set for run files
+4. dotenv
+5. 
+
+
+vite-react-ecommerce/
+│── 📁 node_modules/       # Dependencies installed via npm or yarn
+│── 📁 public/             # Static files (images, icons, manifest, etc.)
+│   ├── 📄 index.html      # Main HTML file
+│── 📁 src/                # Source code
+│   ├── 📁 assets/         # Images, fonts, and styles
+│   │   ├── 📁 images/     # Product images, banners, logos
+│   │   ├── 📁 styles/     # Global styles (CSS, SCSS, Tailwind)
+│   │   ├── 📄 theme.js    # Theme settings for UI
+│   ├── 📁 components/     # Reusable UI components
+│   │   ├── 📁 Navbar/
+│   │   ├── 📁 Footer/
+│   │   ├── 📁 ProductCard/
+│   │   ├── 📁 Button/
+│   │   ├── 📁 Loader/
+│   ├── 📁 pages/          # Application pages
+│   │   ├── 📄 Home.jsx
+│   │   ├── 📄 Product.jsx
+│   │   ├── 📄 Cart.jsx
+│   │   ├── 📄 Checkout.jsx
+│   │   ├── 📄 Login.jsx
+│   │   ├── 📄 Register.jsx
+│   │   ├── 📄 Profile.jsx
+│   │   ├── 📄 Orders.jsx
+│   │   ├── 📄 NotFound.jsx
+│   ├── 📁 hooks/          # Custom hooks
+│   │   ├── 📄 useAuth.js
+│   │   ├── 📄 useCart.js
+│   │   ├── 📄 useFetch.js
+│   ├── 📁 context/        # Global state management (React Context)
+│   │   ├── 📄 AuthContext.js
+│   │   ├── 📄 CartContext.js
+│   ├── 📁 services/       # API calls & external integrations
+│   │   ├── 📄 api.js
+│   │   ├── 📄 authService.js
+│   │   ├── 📄 productService.js
+│   ├── 📁 routes/         # App routing
+│   │   ├── 📄 AppRoutes.jsx
+│   ├── 📁 redux/          # State management using Redux Toolkit (optional)
+│   │   ├── 📁 slices/
+│   │   │   ├── 📄 cartSlice.js
+│   │   │   ├── 📄 authSlice.js
+│   │   ├── 📄 store.js
+│   ├── 📁 utils/          # Utility functions/helpers
+│   │   ├── 📄 formatPrice.js
+│   │   ├── 📄 validateForm.js
+│   │   ├── 📄 localStorage.js
+│   ├── 📁 config/         # Configuration files
+│   │   ├── 📄 constants.js
+│   │   ├── 📄 env.js
+│   ├── 📁 tests/          # Unit and integration tests
+│   │   ├── 📄 App.test.js
+│   │   ├── 📄 Product.test.js
+│   ├── 📄 main.jsx        # Entry point (ReactDOM.createRoot)
+│   ├── 📄 App.jsx         # Main App component
+│── 📄 .gitignore          # Ignore files for Git
+│── 📄 package.json        # Project dependencies & scripts
+│── 📄 vite.config.js      # Vite configuration
+│── 📄 README.md           # Project documentation
